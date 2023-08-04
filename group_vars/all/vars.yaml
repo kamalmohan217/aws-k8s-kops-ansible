@@ -24,7 +24,7 @@ topology: public
 
 
 ## EC2 host sizing
-base_image: kope.io/k8s-1.11-debian-stretch-amd64-hvm-ebs-2018-08-17
+base_image: ubuntu/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20220404               #kope.io/k8s-1.11-debian-stretch-amd64-hvm-ebs-2018-08-17
 
 # Master configuration
 master_size: t2.medium
